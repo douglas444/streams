@@ -15,6 +15,7 @@
     </dependencies>
 
     <build>
+        <finalName>streams</finalName>
         <plugins>
             <!--Apache Maven Compiler Plugin-->
             <plugin>
