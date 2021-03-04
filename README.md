@@ -5,6 +5,7 @@ A set of commons utilities for projects involving data stream classification.
 ## Requirements
 
 * Apache Maven 3.6.3 or higher
+* Java 8
 
 ## Build and install
 
