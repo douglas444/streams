@@ -11,7 +11,9 @@ A set of commons utilities for projects involving data stream classification.
 
 From the project root, execute the following command line:
 
-```mvn clean install```
+```
+mvn clean install
+```
 
-Once the process is finished, the project will be installed at the local maven repository, 
+Once the process is finished, the project will be installed at the *Maven Local Repository*, 
 and the JAR will be also available at the ```target``` folder as ```streams.jar```.
