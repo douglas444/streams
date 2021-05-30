@@ -8,6 +8,7 @@ public class Cluster {
 
     private final List<Sample> samples;
     private final Sample mostRecentSample;
+    private Integer label;
 
     public Cluster(final List<Sample> samples) {
 
@@ -62,5 +63,12 @@ public class Cluster {
         return samples;
     }
 
+    public Integer getLabel() {
+        return label;
+    }
 
+    public Cluster setLabel(Integer label) {
+        this.label = label;
+        return this;
+    }
 }
