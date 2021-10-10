@@ -1,6 +1,6 @@
 # streams
 
-A set of commons utilities for projects involving data stream classification.
+A set of commons utilities for projects involving data stream classification
 
 ## Requirements
 
