@@ -70,6 +70,8 @@ public final class KMeansPlusPlus {
 
         final double sum = probabilityBySample.values().stream().reduce(0.0, Double::sum);
         probabilityBySample.replaceAll((sample, probability) -> probability / sum);
+        //TODO Replace the line above by the commented line below
+        //probabilityBySample.replaceAll((sample, probability) -> probability / (sum == 0 ? 1 : sum));
 
         return probabilityBySample;
 
